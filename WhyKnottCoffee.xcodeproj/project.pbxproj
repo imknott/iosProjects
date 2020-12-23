@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1630E7D5A46E9C42C83522BB /* Pods_WhyKnottCoffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C07C2E36BBEB5DC23BD572B /* Pods_WhyKnottCoffee.framework */; };
+		4ADC8E59084CC3EAEEFF7BBA /* Pods_WhyKnottCoffee_WhyKnottCoffeeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E621BADD12AAFACF496BECEB /* Pods_WhyKnottCoffee_WhyKnottCoffeeUITests.framework */; };
+		A902770D240B776E005BA8DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A902770C240B776E005BA8DE /* AppDelegate.swift */; };
+		A902770F240B776E005BA8DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A902770E240B776E005BA8DE /* SceneDelegate.swift */; };
+		A9027711240B776E005BA8DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9027710240B776E005BA8DE /* ViewController.swift */; };
+		A9027714240B776E005BA8DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9027712240B776E005BA8DE /* Main.storyboard */; };
+		A9027716240B7774005BA8DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9027715240B7774005BA8DE /* Assets.xcassets */; };
+		A9027719240B7774005BA8DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9027717240B7774005BA8DE /* LaunchScreen.storyboard */; };
+		A9027724240B7774005BA8DE /* WhyKnottCoffeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9027723240B7774005BA8DE /* WhyKnottCoffeeTests.swift */; };
+		A902772F240B7774005BA8DE /* WhyKnottCoffeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A902772E240B7774005BA8DE /* WhyKnottCoffeeUITests.swift */; };
+		A902773D240C9837005BA8DE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A902773C240C9837005BA8DE /* GoogleService-Info.plist */; };
+		A902773F240DF36E005BA8DE /* 77081693_1039259326452786_6438659527259717632_o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A902773E240DF36E005BA8DE /* 77081693_1039259326452786_6438659527259717632_o.jpg */; };
+		A9027741240EEC3D005BA8DE /* SignUpUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9027740240EEC3D005BA8DE /* SignUpUser.swift */; };
+		A9027743240F11FC005BA8DE /* coffee-beans.png in Resources */ = {isa = PBXBuildFile; fileRef = A9027742240F11FB005BA8DE /* coffee-beans.png */; };
+		A90277452411D8D5005BA8DE /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90277442411D8D5005BA8DE /* mainViewController.swift */; };
+		A90277472411D985005BA8DE /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90277462411D985005BA8DE /* MenuViewController.swift */; };
+		A9A7A9DA24296F3C00387CB9 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A7A9D924296F3C00387CB9 /* Users.swift */; };
+		A9FC1CFE243448700037215F /* facebook (1).png in Resources */ = {isa = PBXBuildFile; fileRef = A9FC1CFD243448700037215F /* facebook (1).png */; };
+		CCF281558BF761373D71D14C /* Pods_WhyKnottCoffeeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8C926234288F483FC08454 /* Pods_WhyKnottCoffeeTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9027720240B7774005BA8DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9027701240B776E005BA8DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9027708240B776E005BA8DE;
+			remoteInfo = WhyKnottCoffee;
+		};
+		A902772B240B7774005BA8DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9027701240B776E005BA8DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9027708240B776E005BA8DE;
+			remoteInfo = WhyKnottCoffee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C8C926234288F483FC08454 /* Pods_WhyKnottCoffeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhyKnottCoffeeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C07C2E36BBEB5DC23BD572B /* Pods_WhyKnottCoffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhyKnottCoffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3B779191C1BD8DE9EC407F /* Pods-WhyKnottCoffee-WhyKnottCoffeeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhyKnottCoffee-WhyKnottCoffeeUITests.release.xcconfig"; path = "Target Support Files/Pods-WhyKnottCoffee-WhyKnottCoffeeUITests/Pods-WhyKnottCoffee-WhyKnottCoffeeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4D4311D940382767027F1965 /* Pods-WhyKnottCoffeeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhyKnottCoffeeTests.debug.xcconfig"; path = "Target Support Files/Pods-WhyKnottCoffeeTests/Pods-WhyKnottCoffeeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		740F765A110EFE30291463F1 /* Pods-WhyKnottCoffeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhyKnottCoffeeTests.release.xcconfig"; path = "Target Support Files/Pods-WhyKnottCoffeeTests/Pods-WhyKnottCoffeeTests.release.xcconfig"; sourceTree = "<group>"; };
+		A480C789A6CE4315D2DCBD11 /* Pods-WhyKnottCoffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhyKnottCoffee.debug.xcconfig"; path = "Target Support Files/Pods-WhyKnottCoffee/Pods-WhyKnottCoffee.debug.xcconfig"; sourceTree = "<group>"; };
+		A9027709240B776E005BA8DE /* WhyKnottCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhyKnottCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A902770C240B776E005BA8DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A902770E240B776E005BA8DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A9027710240B776E005BA8DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9027713240B776E005BA8DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9027715240B7774005BA8DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9027718240B7774005BA8DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A902771A240B7774005BA8DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A902771F240B7774005BA8DE /* WhyKnottCoffeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhyKnottCoffeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9027723240B7774005BA8DE /* WhyKnottCoffeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhyKnottCoffeeTests.swift; sourceTree = "<group>"; };
+		A9027725240B7774005BA8DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A902772A240B7774005BA8DE /* WhyKnottCoffeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhyKnottCoffeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A902772E240B7774005BA8DE /* WhyKnottCoffeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhyKnottCoffeeUITests.swift; sourceTree = "<group>"; };
+		A9027730240B7774005BA8DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A902773C240C9837005BA8DE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A902773E240DF36E005BA8DE /* 77081693_1039259326452786_6438659527259717632_o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 77081693_1039259326452786_6438659527259717632_o.jpg; sourceTree = "<group>"; };
+		A9027740240EEC3D005BA8DE /* SignUpUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpUser.swift; sourceTree = "<group>"; };
+		A9027742240F11FB005BA8DE /* coffee-beans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffee-beans.png"; sourceTree = "<group>"; };
+		A90277442411D8D5005BA8DE /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		A90277462411D985005BA8DE /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A9A7A9D924296F3C00387CB9 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		A9FC1CFD243448700037215F /* facebook (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook (1).png"; sourceTree = "<group>"; };
+		DA46B7F0D86C82D55D1EA993 /* Pods-WhyKnottCoffee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhyKnottCoffee.release.xcconfig"; path = "Target Support Files/Pods-WhyKnottCoffee/Pods-WhyKnottCoffee.release.xcconfig"; sourceTree = "<group>"; };
+		E47E91FC1E54C1A6186EB8D9 /* Pods-WhyKnottCoffee-WhyKnottCoffeeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhyKnottCoffee-WhyKnottCoffeeUITests.debug.xcconfig"; path = "Target Support Files/Pods-WhyKnottCoffee-WhyKnottCoffeeUITests/Pods-WhyKnottCoffee-WhyKnottCoffeeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E621BADD12AAFACF496BECEB /* Pods_WhyKnottCoffee_WhyKnottCoffeeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhyKnottCoffee_WhyKnottCoffeeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9027706240B776E005BA8DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1630E7D5A46E9C42C83522BB /* Pods_WhyKnottCoffee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A902771C240B7774005BA8DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF281558BF761373D71D14C /* Pods_WhyKnottCoffeeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9027727240B7774005BA8DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADC8E59084CC3EAEEFF7BBA /* Pods_WhyKnottCoffee_WhyKnottCoffeeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7554BF8AA06047E0261AC14B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C07C2E36BBEB5DC23BD572B /* Pods_WhyKnottCoffee.framework */,
+				E621BADD12AAFACF496BECEB /* Pods_WhyKnottCoffee_WhyKnottCoffeeUITests.framework */,
+				0C8C926234288F483FC08454 /* Pods_WhyKnottCoffeeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C07D5FCE27A3B1A7139A17C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A480C789A6CE4315D2DCBD11 /* Pods-WhyKnottCoffee.debug.xcconfig */,
+				DA46B7F0D86C82D55D1EA993 /* Pods-WhyKnottCoffee.release.xcconfig */,
+				E47E91FC1E54C1A6186EB8D9 /* Pods-WhyKnottCoffee-WhyKnottCoffeeUITests.debug.xcconfig */,
+				4B3B779191C1BD8DE9EC407F /* Pods-WhyKnottCoffee-WhyKnottCoffeeUITests.release.xcconfig */,
+				4D4311D940382767027F1965 /* Pods-WhyKnottCoffeeTests.debug.xcconfig */,
+				740F765A110EFE30291463F1 /* Pods-WhyKnottCoffeeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A9027700240B776E005BA8DE = {
+			isa = PBXGroup;
+			children = (
+				A902770B240B776E005BA8DE /* WhyKnottCoffee */,
+				A9027722240B7774005BA8DE /* WhyKnottCoffeeTests */,
+				A902772D240B7774005BA8DE /* WhyKnottCoffeeUITests */,
+				A902770A240B776E005BA8DE /* Products */,
+				9C07D5FCE27A3B1A7139A17C /* Pods */,
+				7554BF8AA06047E0261AC14B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A902770A240B776E005BA8DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9027709240B776E005BA8DE /* WhyKnottCoffee.app */,
+				A902771F240B7774005BA8DE /* WhyKnottCoffeeTests.xctest */,
+				A902772A240B7774005BA8DE /* WhyKnottCoffeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A902770B240B776E005BA8DE /* WhyKnottCoffee */ = {
+			isa = PBXGroup;
+			children = (
+				A902770C240B776E005BA8DE /* AppDelegate.swift */,
+				A902770E240B776E005BA8DE /* SceneDelegate.swift */,
+				A9027710240B776E005BA8DE /* ViewController.swift */,
+				A9027712240B776E005BA8DE /* Main.storyboard */,
+				A9FC1CFD243448700037215F /* facebook (1).png */,
+				A902773E240DF36E005BA8DE /* 77081693_1039259326452786_6438659527259717632_o.jpg */,
+				A9027742240F11FB005BA8DE /* coffee-beans.png */,
+				A9027715240B7774005BA8DE /* Assets.xcassets */,
+				A9027717240B7774005BA8DE /* LaunchScreen.storyboard */,
+				A902771A240B7774005BA8DE /* Info.plist */,
+				A902773C240C9837005BA8DE /* GoogleService-Info.plist */,
+				A9027740240EEC3D005BA8DE /* SignUpUser.swift */,
+				A90277442411D8D5005BA8DE /* mainViewController.swift */,
+				A90277462411D985005BA8DE /* MenuViewController.swift */,
+				A9A7A9D924296F3C00387CB9 /* Users.swift */,
+			);
+			path = WhyKnottCoffee;
+			sourceTree = "<group>";
+		};
+		A9027722240B7774005BA8DE /* WhyKnottCoffeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9027723240B7774005BA8DE /* WhyKnottCoffeeTests.swift */,
+				A9027725240B7774005BA8DE /* Info.plist */,
+			);
+			path = WhyKnottCoffeeTests;
+			sourceTree = "<group>";
+		};
+		A902772D240B7774005BA8DE /* WhyKnottCoffeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A902772E240B7774005BA8DE /* WhyKnottCoffeeUITests.swift */,
+				A9027730240B7774005BA8DE /* Info.plist */,
+			);
+			path = WhyKnottCoffeeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9027708240B776E005BA8DE /* WhyKnottCoffee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9027733240B7774005BA8DE /* Build configuration list for PBXNativeTarget "WhyKnottCoffee" */;
+			buildPhases = (
+				DC57F263A19CF77D2F810930 /* [CP] Check Pods Manifest.lock */,
+				A9027705240B776E005BA8DE /* Sources */,
+				A9027706240B776E005BA8DE /* Frameworks */,
+				A9027707240B776E005BA8DE /* Resources */,
+				7AB392EF4F7B9D481D492F39 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhyKnottCoffee;
+			productName = WhyKnottCoffee;
+			productReference = A9027709240B776E005BA8DE /* WhyKnottCoffee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A902771E240B7774005BA8DE /* WhyKnottCoffeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9027736240B7774005BA8DE /* Build configuration list for PBXNativeTarget "WhyKnottCoffeeTests" */;
+			buildPhases = (
+				A7202F26D8C37A06FA53BDCE /* [CP] Check Pods Manifest.lock */,
+				A902771B240B7774005BA8DE /* Sources */,
+				A902771C240B7774005BA8DE /* Frameworks */,
+				A902771D240B7774005BA8DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9027721240B7774005BA8DE /* PBXTargetDependency */,
+			);
+			name = WhyKnottCoffeeTests;
+			productName = WhyKnottCoffeeTests;
+			productReference = A902771F240B7774005BA8DE /* WhyKnottCoffeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9027729240B7774005BA8DE /* WhyKnottCoffeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9027739240B7774005BA8DE /* Build configuration list for PBXNativeTarget "WhyKnottCoffeeUITests" */;
+			buildPhases = (
+				103487A93AC323D677062866 /* [CP] Check Pods Manifest.lock */,
+				A9027726240B7774005BA8DE /* Sources */,
+				A9027727240B7774005BA8DE /* Frameworks */,
+				A9027728240B7774005BA8DE /* Resources */,
+				AED23EAABCB13734DC5E4802 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A902772C240B7774005BA8DE /* PBXTargetDependency */,
+			);
+			name = WhyKnottCoffeeUITests;
+			productName = WhyKnottCoffeeUITests;
+			productReference = A902772A240B7774005BA8DE /* WhyKnottCoffeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9027701240B776E005BA8DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ian Knott";
+				TargetAttributes = {
+					A9027708240B776E005BA8DE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					A902771E240B7774005BA8DE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A9027708240B776E005BA8DE;
+					};
+					A9027729240B7774005BA8DE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A9027708240B776E005BA8DE;
+					};
+				};
+			};
+			buildConfigurationList = A9027704240B776E005BA8DE /* Build configuration list for PBXProject "WhyKnottCoffee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9027700240B776E005BA8DE;
+			productRefGroup = A902770A240B776E005BA8DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9027708240B776E005BA8DE /* WhyKnottCoffee */,
+				A902771E240B7774005BA8DE /* WhyKnottCoffeeTests */,
+				A9027729240B7774005BA8DE /* WhyKnottCoffeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9027707240B776E005BA8DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9027719240B7774005BA8DE /* LaunchScreen.storyboard in Resources */,
+				A9027716240B7774005BA8DE /* Assets.xcassets in Resources */,
+				A902773F240DF36E005BA8DE /* 77081693_1039259326452786_6438659527259717632_o.jpg in Resources */,
+				A9027714240B776E005BA8DE /* Main.storyboard in Resources */,
+				A9FC1CFE243448700037215F /* facebook (1).png in Resources */,
+				A902773D240C9837005BA8DE /* GoogleService-Info.plist in Resources */,
+				A9027743240F11FC005BA8DE /* coffee-beans.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A902771D240B7774005BA8DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9027728240B7774005BA8DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		103487A93AC323D677062866 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhyKnottCoffee-WhyKnottCoffeeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AB392EF4F7B9D481D492F39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhyKnottCoffee/Pods-WhyKnottCoffee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhyKnottCoffee/Pods-WhyKnottCoffee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhyKnottCoffee/Pods-WhyKnottCoffee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7202F26D8C37A06FA53BDCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhyKnottCoffeeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AED23EAABCB13734DC5E4802 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhyKnottCoffee-WhyKnottCoffeeUITests/Pods-WhyKnottCoffee-WhyKnottCoffeeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhyKnottCoffee-WhyKnottCoffeeUITests/Pods-WhyKnottCoffee-WhyKnottCoffeeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhyKnottCoffee-WhyKnottCoffeeUITests/Pods-WhyKnottCoffee-WhyKnottCoffeeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC57F263A19CF77D2F810930 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhyKnottCoffee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9027705240B776E005BA8DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9027741240EEC3D005BA8DE /* SignUpUser.swift in Sources */,
+				A90277472411D985005BA8DE /* MenuViewController.swift in Sources */,
+				A9027711240B776E005BA8DE /* ViewController.swift in Sources */,
+				A90277452411D8D5005BA8DE /* mainViewController.swift in Sources */,
+				A902770D240B776E005BA8DE /* AppDelegate.swift in Sources */,
+				A902770F240B776E005BA8DE /* SceneDelegate.swift in Sources */,
+				A9A7A9DA24296F3C00387CB9 /* Users.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A902771B240B7774005BA8DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9027724240B7774005BA8DE /* WhyKnottCoffeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9027726240B7774005BA8DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A902772F240B7774005BA8DE /* WhyKnottCoffeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9027721240B7774005BA8DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9027708240B776E005BA8DE /* WhyKnottCoffee */;
+			targetProxy = A9027720240B7774005BA8DE /* PBXContainerItemProxy */;
+		};
+		A902772C240B7774005BA8DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9027708240B776E005BA8DE /* WhyKnottCoffee */;
+			targetProxy = A902772B240B7774005BA8DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9027712240B776E005BA8DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9027713240B776E005BA8DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9027717240B7774005BA8DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9027718240B7774005BA8DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9027731240B7774005BA8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9027732240B7774005BA8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9027734240B7774005BA8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A480C789A6CE4315D2DCBD11 /* Pods-WhyKnottCoffee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DRPZPDJNQ;
+				INFOPLIST_FILE = WhyKnottCoffee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WhyKnottCoffee.WhyKnottCoffee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9027735240B7774005BA8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA46B7F0D86C82D55D1EA993 /* Pods-WhyKnottCoffee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DRPZPDJNQ;
+				INFOPLIST_FILE = WhyKnottCoffee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WhyKnottCoffee.WhyKnottCoffee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9027737240B7774005BA8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D4311D940382767027F1965 /* Pods-WhyKnottCoffeeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DRPZPDJNQ;
+				INFOPLIST_FILE = WhyKnottCoffeeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WhyKnottCoffee.WhyKnottCoffeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhyKnottCoffee.app/WhyKnottCoffee";
+			};
+			name = Debug;
+		};
+		A9027738240B7774005BA8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740F765A110EFE30291463F1 /* Pods-WhyKnottCoffeeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DRPZPDJNQ;
+				INFOPLIST_FILE = WhyKnottCoffeeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WhyKnottCoffee.WhyKnottCoffeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhyKnottCoffee.app/WhyKnottCoffee";
+			};
+			name = Release;
+		};
+		A902773A240B7774005BA8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E47E91FC1E54C1A6186EB8D9 /* Pods-WhyKnottCoffee-WhyKnottCoffeeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DRPZPDJNQ;
+				INFOPLIST_FILE = WhyKnottCoffeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WhyKnottCoffee.WhyKnottCoffeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhyKnottCoffee;
+			};
+			name = Debug;
+		};
+		A902773B240B7774005BA8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B3B779191C1BD8DE9EC407F /* Pods-WhyKnottCoffee-WhyKnottCoffeeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DRPZPDJNQ;
+				INFOPLIST_FILE = WhyKnottCoffeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WhyKnottCoffee.WhyKnottCoffeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhyKnottCoffee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9027704240B776E005BA8DE /* Build configuration list for PBXProject "WhyKnottCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9027731240B7774005BA8DE /* Debug */,
+				A9027732240B7774005BA8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9027733240B7774005BA8DE /* Build configuration list for PBXNativeTarget "WhyKnottCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9027734240B7774005BA8DE /* Debug */,
+				A9027735240B7774005BA8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9027736240B7774005BA8DE /* Build configuration list for PBXNativeTarget "WhyKnottCoffeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9027737240B7774005BA8DE /* Debug */,
+				A9027738240B7774005BA8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9027739240B7774005BA8DE /* Build configuration list for PBXNativeTarget "WhyKnottCoffeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A902773A240B7774005BA8DE /* Debug */,
+				A902773B240B7774005BA8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9027701240B776E005BA8DE /* Project object */;
+}
